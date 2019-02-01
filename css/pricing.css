@@ -1,0 +1,31 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 9px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.pricing-header {
+  max-width: 1200px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.my-2 my-md-0 mr-md-3 .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
